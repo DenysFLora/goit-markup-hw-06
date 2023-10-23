@@ -786,10 +786,14 @@ position: relative;
 }
 
 @media screen and (min-width: 320px) {
-    
+
+    .features-item-icon-back {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
+
     .container {
         max-width: 768px;
     }
@@ -801,9 +805,14 @@ position: relative;
     .features-item {
         width: calc((100% - 24px) / 2);
     }
+
+    .features-item-icon-back {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1440px) {
+    
     .container {
         max-width: 1440px;
         padding-left: 156px; 
@@ -828,7 +837,6 @@ position: relative;
 
     .features-item {
         width: calc((100% - 3 * 24px) / 4);
-        width: 100%;
     }
 
     .features-item-icon {
