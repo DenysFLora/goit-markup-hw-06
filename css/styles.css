@@ -28,7 +28,6 @@ img {
     display: block; 
     max-width: 100%;
     height: auto;
-    width: 100%;
 }
 
 address {
@@ -100,7 +99,7 @@ margin-right: 76px
     }
 
 .header-menu {
-    display: flex;
+    display: none;
     gap: 40px;
 }
 .header-menu-item {
@@ -137,6 +136,7 @@ border-radius: 2px;
 .header-soc {
 font-style: normal;
 margin-left: auto;
+display: none;
 }
 
 .header-soc-list { 
